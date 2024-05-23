@@ -14,7 +14,7 @@ body {
     max-width: 100%;
     grid-template-columns: repeat(8, 1fr);
     grid-column-gap: 10px;
-    grid-template-rows: auto 645px auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
     grid-row-gap: 0px;
 }
 
@@ -34,7 +34,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border: dashed 1px #FFF;
+    border: dashed 1px #777;
 }
 
 .logo {
@@ -84,52 +84,28 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 600px;
+    height: 500px;
     background-color: white;
     overflow: hidden;
     padding: 0;
 }
 
-.banner-content {
-    display: flex;
-    max-width: 800px;
-    padding: 20px;
-    position: relative;
-    align-items: center;
-}
-
-.banner-content h1 {
-    font-size: 48px;
-    margin: 0;
-    font-weight: 800;
-    z-index: 2;
-}
-
-.banner-content p {
-    font-size: 24px;
-    margin: 10px 0 20px;
-    font-weight: 200;
-    z-index: 2;
+.banner-content-left {
+    width: 30%;
 }
 
 .hero-button {
-    display: inline-block;
     background-color: black;
     color: white;
     text-decoration: none;
-    padding: 15px 30px;
-    font-weight: 600;
-    margin-top: 20px;
-    z-index: 2;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 .avatar {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-left: -50px;
-    z-index: 1;
+    max-width: 500px;
+    height: auto;
 }
 
 /* About styling */
