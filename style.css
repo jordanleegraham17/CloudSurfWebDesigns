@@ -69,7 +69,6 @@ body {
     text-decoration: none;
     padding: 10px 20px;
     font-weight: bold;
-    border-radius: 5px;
     margin-left: 35px;
 }
 
@@ -98,7 +97,6 @@ body {
     text-decoration: none;
     padding: 10px 20px;
     font-weight: bold;
-    border-radius: 5px;
 }
 
 .avatar {
@@ -123,6 +121,7 @@ body {
 }
 
 .about-text-right {
+    text-align: left;
     background-color: black;
     color: white;
     width: 30%;
@@ -134,7 +133,6 @@ body {
     text-decoration: none;
     padding: 10px 20px;
     font-weight: bold;
-    border-radius: 5px;
 }
 
 /* Services styling */
