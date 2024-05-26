@@ -138,11 +138,29 @@ body {
 /* Services styling */
 .section-services {
     grid-column: span 8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    padding: 0;
+}
+
+.services-snippet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted red;
 }
 
 /* Contact styling */
 .section-contact {
     grid-column: span 8;
+    background-color: black;
+    color: white;
 }
 
 /* Footer styling */
