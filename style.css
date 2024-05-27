@@ -146,6 +146,7 @@ body {
     background-color: white;
     overflow: hidden;
     padding: 0;
+    border: 1px dotted red;
 }
 
 .services-snippet {
@@ -159,8 +160,21 @@ body {
 /* Contact styling */
 .section-contact {
     grid-column: span 8;
+    display: flex;
+    justify-content: space-around;
     background-color: black;
     color: white;
+    border: 1px dotted red;
+}
+
+.contact-content-left {
+    background-color: blue;
+    width: 50%;
+}
+
+.contact-content-right {
+    background-color: green;
+    width: 50%;
 }
 
 /* Footer styling */
